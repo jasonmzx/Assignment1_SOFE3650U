@@ -12,22 +12,30 @@ Name: **Jason Manarroo** | Student Number: **100825106**
 
 ─|  /Assignment_1
 
-─|─|  /bin      *Compiled source files, mirror folder structure like src, but with .class files*
-─|─|  /src      *Source files, .java*
+─|─|  /bin      *(Compiled source files, mirror folder structure like src, but with .class files)*
 
-─|─|─|  data.txt        *Data File, holding product names & prices*
-─|─|─|  TestDriver2.java
+─|─|  /src      *(Source files, .java)*
+
+─|─|─|  data.txt        *(Data File, holding product names & prices)*
+
+─|─|─|  TestDriver2.java    *(Test Driver, which uses abstract factory)*
+
 ─|─|─|  /abstractfactory
 
 ─|─|─|─|  GroceryProductFactory.java
+
 ─|─|─|─|  GroceryProduct.java
+
 ─|─|─|─|  Apples.java
+
 ─|─|─|─|  Bananas.java
+
 ─|─|─|─|  ApplesFactory.java
+
 ─|─|─|─|  BananasFactory.java
 
-─|─|    /.settings *IDE settings & configs*
-─|─|    .classpath
-─|─|    .project
+─|─|    /.settings *(IDE settings & configs)*
 
-x
+─|─|    .classpath
+
+─|─|    .project
