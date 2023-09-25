@@ -2,11 +2,15 @@ package abstractfactory;
 
 public class ApplesFactory implements GroceryProductFactory {
 
+	String applesName = "Apples";
+	
 	@Override
-	public GroceryProduct createProduct(double productPrice) {
+	public GroceryProduct createProduct() {
 		
 		GroceryProduct a = new Apples();
-		a.setPrice(productPrice);
+
+		a.setPrice(FileReadingHelper.getItemPriceFromDB(applesName));
+				
 		System.out.println("Apples created!");
 		
 		return a;

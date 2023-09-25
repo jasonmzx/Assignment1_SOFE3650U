@@ -2,11 +2,16 @@ package abstractfactory;
 
 public class BananasFactory implements GroceryProductFactory {
 
+	String bananasName = "Bananas";
+	
 	@Override
-	public GroceryProduct createProduct(double productPrice) {
+	public GroceryProduct createProduct() {
 
+	
 		GroceryProduct b = new Bananas();
-		b.setPrice(productPrice);
+		
+		b.setPrice(FileReadingHelper.getItemPriceFromDB(bananasName));
+			
 		System.out.println("Bananas created!");
 		
 		return b;
