@@ -5,7 +5,7 @@ import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class FileReadingHelper {
+public abstract class FileReadingHelper {
 	
 	
 	public static float getItemPriceFromDB(String name) {
@@ -16,7 +16,7 @@ public class FileReadingHelper {
 	 try {
 	      
 		 //Read File & Scan it
-		 File myObj = new File("src/data.txt");
+		 File myObj = new File("data.txt");
 	     Scanner myReader = new Scanner(myObj);
 	      
 	      while (myReader.hasNextLine()) {

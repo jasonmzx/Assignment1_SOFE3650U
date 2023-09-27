@@ -1,9 +1,3 @@
-
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.util.ArrayList;
-import java.util.Scanner;
-
 import abstractfactory.ApplesFactory;
 import abstractfactory.BananasFactory;
 import abstractfactory.GroceryProduct;
@@ -18,10 +12,10 @@ public class TestDriver2 {
 		GroceryProductFactory AF = new ApplesFactory();
 		GroceryProductFactory BF = new BananasFactory();
 		
-		ArrayList<String> readLines = new ArrayList();
-		  
+		//* Create Apples
 		GroceryProduct apples = AF.createProduct();
-		        
+
+		//* Create Bananas
 		GroceryProduct bananas = BF.createProduct();
 		
 		System.out.println(apples.getPrice());
