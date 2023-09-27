@@ -91,6 +91,7 @@ Our abstract factory interface `GroceryProductFactory` is implemented via `Apple
 ─|─|─|─|  Bananas.java
 ─|─|─|─|  ApplesFactory.java
 ─|─|─|─|  BananasFactory.java
+─|─|─|─|  FileReadingHelper.java *Abstract class that helps our factories*
 ─|─|    /.settings *(IDE settings & configs)*
 ─|─|    .classpath
 ─|─|    .project
