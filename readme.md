@@ -3,7 +3,9 @@
 ##### Assignment #1
 
 Name: **Jason Manarroo** | Student Number: **100825106**
+
 Name: **Trent Jordan** | Student Number: **100831853**
+
 Name: **William Chamberlain** | Student Number: **100846922**
 
 
