@@ -1,13 +1,12 @@
 
 ## Software Design & Architecture | SOFE3650
-##### Assignment #1
+# Assignment #1
 
-Name: **Jason Manarroo** | Student Number: **100825106**
-
-Name: **Trent Jordan** | Student Number: **100831853**
-
+Name: **Jason Manarroo** | Student Number: **100825106** <br></br>
+Name: **Trent Jordan** | Student Number: **100831853** <br></br>
 Name: **William Chamberlain** | Student Number: **100846922**
 
+---
 
 ### Project Setup:
 
@@ -25,6 +24,7 @@ java TestDriver2
 
 ![SETUP_A1](./static/SETUP_A1.png)
 
+---
 
 ### UML Diagram of Abstract Factory _(With Bananas & Apples as examples)_
 ![SD_A1](./static/SD_A1.png)
@@ -73,6 +73,8 @@ Our abstract factory interface `GroceryProductFactory` is implemented via `Apple
 ### TestDriver2.java Output:
 
 ![TestDriver 2](./static/SD_A1_TestDriver2_out.png)
+
+--- 
 
 ### Assignment File Structure:
 
